@@ -49,7 +49,7 @@ function Navbar() {
                                     >
                                         Signup
                                     </a>
-                                    <button className="hover:shadow-md hover:border text-white font-xl hover:text-blue py-4 px-6 rounded-full shadow-xl inline-flex">
+                                    <button className="hover:shadow-md hover:border text-blue font-xl py-4 px-6 rounded-full shadow-xl inline-flex">
                                         Request Demo &nbsp;
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#9151fe" strokeWidth={2}>
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
