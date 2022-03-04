@@ -91,6 +91,7 @@ module.exports = {
       'card': '10px 10px 30px -10px rgba(0, 0, 0, 0.5)',
       inner: 'inset 0 5px 20px 0 rgba(0, 0, 0, 0.4)',
       focus: '0 0 0 3px rgba(66, 153, 225, 0.5)',
+      'gray-800': '0px 0px 20px 0px rgba(66, 66, 66, 0.5)',
       none: 'none',
     },
     borderRadius: {

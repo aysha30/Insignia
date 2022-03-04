@@ -54,6 +54,30 @@ function Testimonials() {
                     </div>
                 </div>
             </div>
+            <div className=''>
+                <div className="flex-row lg:flex place-content-around">
+                    <div className="flex-grow place-content-around">
+                        <div className='text-2xl sm:text-5xl font-bold text-blue text-left normal-case'>
+                            Subscribe !
+                        </div>
+                        <div className='py-10 text-lg text-white text-left font-thin break-words'>
+                            Join our newsletter to never miss any latest news.
+                        </div>
+                    </div>
+                    <div className="flex items-center grid grid-cols-1 justify-items-center xl:justify-items-end flex-grow">
+                        <div className=" ">
+                            <div class="bg-midnight rounded-4xl shadow-inner hover:shadow-gray-800 input-group relative flex inline-flex items-stretch p-4">
+                                <input type="email" className="form-control relative bg-transparent text-white font-inter font-thin flex-auto min-w-0 block w-full px-3 py-1.5 transition ease-in-out m-0 hover:text-white focus:text-white focus:outline-none"
+                                    placeholder="Enter your e-mail address here" aria-label="Email" aria-describedby="button-addon3" />
+                                <button
+                                    // hover:shadow-md hover:border font-xl hover:text-blue py-6 px-12 rounded-full shadow-xl
+                                    className="btn bg-gray-900 hover:shadow-md font-thin text-white hover:text-blue rounded-full shadow-xl px-3 py-3 focus:outline-none transition duration-150 ease-in-out w-40"
+                                    type="button" id="button-addon3">Join Us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

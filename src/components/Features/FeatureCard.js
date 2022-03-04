@@ -3,10 +3,10 @@ import React from 'react'
 const FeatureCard = ({ title, content, d }) => {
     return (
         <>
-            <div className='p-5 sm:px-10 sm:py-5'>
+            <div className='p-5 sm:px-10 sm:py-5 '>
                 <div className=''>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white" strokeWidth={0.4}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d={d} />
+                        <path className='shadow-gray-800' strokeLinecap="round" strokeLinejoin="round" d={d} />
                     </svg>
                 </div>
                 <div className='text-2xl text-blue text-left font-bold normal-case break-words pt-5'>

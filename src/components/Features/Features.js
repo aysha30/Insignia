@@ -44,7 +44,7 @@ function Features() {
                     >
                         {featureList.map(item => (
                             <div key={item.id}
-                                className='bg-gray-900 flex-none h-auto w-2/3 lg:w-1/3 mr-8 md:pb-4 rounded-4xl shadow shadow-card'
+                                className='bg-gray-900 flex-none h-auto w-2/3 lg:w-1/3 mx-8 mt-5 md:pb-4 rounded-4xl shadow shadow-gray-800'
                             // className='flex-none w-2/3 md:w-1/3 mr-8 md:pb-4 border rounded-lg+'
                             >
                                 <FeatureCard title={item.title} content={item.content} d={item.d} />
